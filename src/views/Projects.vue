@@ -12,11 +12,11 @@ import Projects from '../components/projects.vue'
       <div class="row">
         <div class="col-md-8">
           <div class="banner">
-            <h1>Contact US</h1>
+            <h1>Projects</h1>
             <ul>
               <li><router-link to="/">Home</router-link></li>
               <li><i class="fas fa-angle-right"></i></li>
-              <li>Contact US</li>
+              <li>Projects</li>
             </ul>
           </div>
         </div>
@@ -24,5 +24,5 @@ import Projects from '../components/projects.vue'
     </div>
   </section>
 
- <projects />
+ <projects :sectionHeader="data.landscapeProjectsSectionHeader"/>
 </template>

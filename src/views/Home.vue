@@ -1,15 +1,14 @@
 <script setup>
 import Team from '../components/partials/member.vue'
 import Service from '../components/partials/service.vue'
-import Project from '../components/partials/project.vue'
 import SliderItem from '../components/partials/slider.vue'
 import data from './home'
 import { ref, onMounted } from 'vue'
 // import mixitup from 'mixitup';
 import {useAnimation} from '../composables/useAnimation.js'
 import Projects from '../components/projects.vue'
+import About from '../components/about.vue'
 // let mixer
-const projectsCats = ref(null)
  useAnimation()
 
 
@@ -130,63 +129,7 @@ onMounted(() => {
     </section>
 
 
-    <!-- :: About US -->
-    <section class="about-us home-2 py-100" id="start">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="about-us-text-box">
-                        <div class="sec-title home-2">
-                            <h2 class="animate__animated invisible" animation="fadeInLeft">Welcome to Gulf Elite</h2>
-                            <h3 class="animate__animated invisible animate__delay-1s" animation="fadeInLeft">Best technology
-                                and awesome service we offer.</h3>
-                            <p class="sec-explain animate__animated invisible animate__delay-2s" animation="fadeInLeft">Gulf
-                                Elite Group is a premier company in the field of landscape development, soil stablilzation,
-                                and the manufacturing of high-quality Gypsum blocks known as AD Blocks. Founded in 2003 by
-                                engineer Hamada Ghaith</p>
-                        </div>
-                        <div class="features-style-2">
-                            <div class="row">
-                                <div class="col-sm-6  animate__animated invisible animate__delay-3s" animation="zoomIn">
-                                    <div class="item">
-                                        <i class="ar-icons-toolbox"></i>
-                                        <div class="content-box">
-                                            <h5>environment friendly</h5>
-                                            <p>The company understands the importance of protecting the environment and
-                                                works hard to minimize its impact on the natural world. This includes using
-                                                eco-friendly materials, implementing recycling programs, and more.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6  animate__animated invisible animate__delay-3s" animation="zoomIn">
-                                    <div class="item">
-                                        <i class="ar-icons-trolley"></i>
-                                        <div class="content-box">
-                                            <h5>10+ Years Experience</h5>
-                                            <p>Gulf Elite has been in business for more than 10 years, and we're really good
-                                                at making landscapes look great, stabilizing soil, and creating innovative
-                                                building solutions with AD Block.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="about-quote  animate__animated invisible animate__delay-3s" animation="fadeInUp">Gulf
-                            Elite is proud to offer a unique and innovative technology to give our customers the best
-                            experience with our services.</p>
-                        <div class="about-btn   animate__animated invisible animate__delay-4s" animation="fadeInBottomLeft">
-                            <a href="02_about-us.html" class="btn-1 btn-3"><span>More About Us</span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5  animate__animated invisible " animation="fadeInRight">
-                    <div class="about-us-img-box">
-                        <div class="img-box" style="background-image: url(https://gulfelite.b-cdn.net/about2.png)"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <about :content="data.aboutSection" />
 
 
     <!-- :: Services -->
@@ -237,7 +180,7 @@ onMounted(() => {
             </div>
         </div>
     </section>
-    <projects />
+    <projects :sectionHeader="data.projectsSectionHeader"/>
 
     <!-- :: Provide -->
     <section class="provide">

@@ -26,11 +26,11 @@ const navLinks = [
 
   {
     name : "Soil Stabilization",
-    to : "/adblock",
+    to : "/soil",
   },
   {
     name : "Ad Block",
-    to : "/soil",
+    to : "/adblock",
   },
   {
     name : "Projects",

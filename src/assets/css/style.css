@@ -1831,7 +1831,7 @@ p {
 	display: none;
 }
 .services.home-2 .services-carousel-item .item-box .content-box{
-    padding-left: 65px;
+    /* padding-left: 65px; */
 }
 .services.home-2 .services-carousel-item .item-box .content-box h4{
 	font-size: 22px;
@@ -3217,6 +3217,7 @@ p {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+ 
 }
 .breadcrumb-header.style-2{
     padding: 120px 0;

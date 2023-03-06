@@ -10,6 +10,30 @@ function filter(e){
     console.log(e)
 }
 let mixer
+
+
+const props = defineProps({
+  cat: String,
+  sectionHeader: Object
+
+})
+
+
+const cats = data.projectsCategories.filter(cat => {
+    if(props.cat == void 0){
+        return cat
+    }
+    
+    return cat.cat === props.cat || `.${props.cat}` === cat.cat ? cat : null
+})
+
+const projects = data.projects.filter(project => {
+    if(props.cat == void 0){
+        return project
+    }
+    
+    return project.cat === props.cat ? project : null
+})
 onMounted(() => {
     mixer = mixitup(projectsCats.value, {
         selectors: {
@@ -29,22 +53,21 @@ onMounted(() => {
             <div class="sec-title home-3">
                 <div class="row">
                     <div class="col-lg-5">
-                        <h2>We work with global Industries!</h2>
-                        <h3>our successful projects </h3>
+                        <h2>{{ props.sectionHeader.headline }}</h2>
+                        <h3>{{ props.sectionHeader.title }} </h3>
                     </div>
                     <div class="col-lg-5 d-flex align-items-center">
-                        <p class="sec-explain">Discover some of our projects and see the Gulf Elite difference. Browse
-                            through our portfolio to see the quality of our work </p>
+                        <p class="sec-explain">{{ props.sectionHeader.breif }} </p>
                     </div>
                 </div>
             </div>
             <div class="projects-list text-center">
                  <ul class="list-name-projects">
-                    <li  v-for="(cat , index) in data.projectsCategories" :key="index"  :data-filter="cat.class" class="mixitup-control-active" :class="{'active' : (activeCat == cat.class)}" @click=" $e => activeCat = cat.class">{{ cat.name }}</li>
+                    <li  v-for="(cat , index) in cats" :key="index"  :data-filter="cat.class" class="mixitup-control-active" :class="{'active' : (activeCat == cat.class)}" @click=" $e => activeCat = cat.class">{{ cat.name }}</li>
                 </ul>
             </div>
             <div class="row all-projects" ref="projectsCats" style="">
-                <project v-for="(project , index) in data.projects" :key="index" :project="project"/> 
+                <project v-for="(project , index) in projects" :key="index" :project="project"/> 
                
             </div>
         </div>

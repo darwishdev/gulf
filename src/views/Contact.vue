@@ -12,7 +12,7 @@ useAnimation()
 
 <template>
   <!-- :: Breadcrumb Header -->
-  <section class="breadcrumb-header" id="page" style="background-image: url(https://gulfelite.b-cdn.net/about2.png)">
+  <section class="breadcrumb-header" id="page" style="background-image: url(https://gulfelite.b-cdn.net/slider/vintage-pink-telephone-composition.jpg)">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
