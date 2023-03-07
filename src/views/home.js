@@ -8,12 +8,12 @@ export default {
             {
                 title: 'environment friendly',
                 content: 'The company understands the importance of protecting the environment and works hard to minimize its impact on the natural world. This includes using eco-friendly materials, implementing recycling programs, and more.',
-                icon: 'ar-icons-toolbox',
+                icon: 'https://gulfelite.b-cdn.net/icons/planet-earth.png',
             },
             {
                 title: '10+ Years Experience',
                 content: 'Gulf Elite has been in business for more than 10 years, and we\'re really good at making landscapes look great, stabilizing soil, and creating innovative building solutions with AD Block.',
-                icon: 'ar-icons-toolbox',
+                icon: 'https://gulfelite.b-cdn.net/icons/anniversary.png',
             },
         ],
         summary: "Gulf Elite is proud to offer a unique and innovative technology to give our customers the best experience with our services.",
@@ -27,12 +27,12 @@ export default {
             {
                 title: 'Vision',
                 content: 'create and maintain sustainable landscapes that enhance the beauty of our client\'s properties while saving water and increasing property values.',
-                icon: 'ar-icons-toolbox',
+                icon: 'https://gulfelite.b-cdn.net/icons/eye.png',
             },
             {
                 title: 'Mission',
                 content: 'CREATE and Maintain Unique, Quality Environments That Benefit Our Clients , Community And we are commited to create environmentally-friendly designs that saves water',
-                icon: 'ar-icons-toolbox',
+                icon: 'https://gulfelite.b-cdn.net/icons/target.png',
             },
         ],
         summary: "Customers choose us because we provide excellent service and high-quality products. We pay attention to details and take the time to understand their specific needs.",
@@ -46,23 +46,23 @@ export default {
             {
                 title: 'HANDLING AND SAFETY',
                 content: 'SandLOCKâ is  water-based and non-toxic under normal use conditions.',
-                icon: 'ar-icons-toolbox',
+                icon: 'https://gulfelite.b-cdn.net/icons/worker.png',
             },
             {
                 title: 'eco-friendly ',
-                content: 'is a unique environment-friendly product designed specifically for erosion control and dust control. SandLOCKââ can be classified as an eco-friendly product',
-                icon: 'ar-icons-toolbox',
+                content: 'SandLOCKâ is a unique environment-friendly product designed specifically for erosion control and dust control. SandLOCKââ can be classified as an eco-friendly product',
+                icon: 'https://gulfelite.b-cdn.net/icons/planet-earth.png',
             },
             {
                 title: 'Features',
                 content: '<ol><li>Highly waterproof composite.</li><li>Good breathability</li><li>Does not degrade under continuous UV exposure ensuring durability</li><li>Gives a weather-resistant crust with improved durability</li><li>Compatible with all kinds of soils.</li></ol>',
-                icon: 'ar-icons-toolbox',
+                icon: 'https://gulfelite.b-cdn.net/icons/features.png',
             },
             {
                 title: 'Advantages',
 
                 content: '<ol><li>Less time-consuming in related to marl maintenance.</li><li>Less cost related to marl maintenance.</li><li>More effective for erosion control especially against wind and rain.</li><li>Environmentally friendly product.</li></ol>',
-                icon: 'ar-icons-toolbox',
+                icon: 'https://gulfelite.b-cdn.net/icons/thumbs-up.png',
             },
         ],
         summary: "Gulf Elite have worked with Saudi Aramco projects as a subcontractor with NESMA, ALARM, ACDCO & many others",
@@ -76,12 +76,12 @@ export default {
             {
                 title: 'Vision',
                 content: 'The efficiency of AD-Block will be proven and it will take a bigger share of the African and Arabian  market in the next ten years.',
-                icon: 'ar-icons-toolbox',
+                icon: 'https://gulfelite.b-cdn.net/icons/eye.png',
             },
             {
                 title: 'Mission',
                 content: 'To change mindset of MENA region industry about buildings which is built by gypsum.',
-                icon: 'ar-icons-toolbox',
+                icon: 'https://gulfelite.b-cdn.net/icons/target.png',
             },
         ],
         summary: "AD-Block  featured by high resistance to fire, as the natural gypsum contains a large amount of water, which leads to higher fire resistance and more heat insulation, as the gypsum material regulates Humidity balance inside the building.",
@@ -90,22 +90,22 @@ export default {
         {
             title: "10+ Years Experience",
             content: "With over 10 years of experience, Gulf Elite has honed the art of landscape development, soil stablilzation, and innovative building solutions with AD Block ",
-            icon: "",
+            icon: "fas fa-sparkle",
         },
         {
             title: "Best Team Member",
             content: "At Gulf Elite, we believe that our team is our greatest asset. Our skilled and dedicated professionals bring a wealth of knowledge, experience, and creativity to every project.Our team excels always",
-            icon: "",
+            icon: "fas fa-users-medical",
         },
         {
             title: "The Best Services",
             content: "At Gulf Elite, providing the best service is at the heart of everything we do. With a commitment to excellence and a passion for our work, we strive to deliver exceptional service.",
-            icon: "",
+            icon: "ar-icons-idea",
         },
         {
             title: "Unique Technology",
             content: "Gulf Elite is proud to offer a unique and innovative technology. Working with the latest technology in the market and innovating new tech to give our customers the best experience with our services.",
-            icon: "",
+            icon: "ar-icons-idea",
         },
     ],
     "members": [
@@ -131,7 +131,7 @@ export default {
             logo: "https://gulfelite.b-cdn.net/logos/GES-Home.png",
             content: "Our soil stabilization service is designed to improve the strength and stability of your soil, ensuring that it is able to support the construction of roads, buildings, and other structures",
             route: "soil",
-            headline: "Ensuring the Longevity and Integrity of Your Soil.",
+            headline: "Ensures the Longevity and Integrity of Your Soil.",
             topHeadline: "Soil stabilization",
             features: [
             ]
@@ -291,7 +291,7 @@ export default {
     "partners": [],
     "landscapeProjectsSectionHeader": {
         "headline": "Gulf elite landscapes",
-        "title": "Some of our successfull landscapes projects",
+        "title": "Some of our successful landscapes projects",
         "breif": "Discover some of our projects and see the Gulf Elite difference. Browse through our portfolio to see the quality of our work"
     },
     "projectsSectionHeader": {

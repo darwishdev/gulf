@@ -35,7 +35,7 @@ const props = defineProps({
                             <div class="row">
                                 <div class="col-sm-6  animate__animated invisible animate__delay-2s" animation="zoomIn" v-for="(feature , index) in content.features">
                                     <div class="item">
-                                        <i :class="feature.icon"></i>
+                                        <img :src="feature.icon" style="width:50px"/>
                                         <div class="content-box">
                                             <h5>{{feature.title}}</h5>
                                             <p v-html="feature.content"></p>

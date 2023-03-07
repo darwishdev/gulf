@@ -1614,9 +1614,7 @@ p {
     color: #F57009;
     float: left;
 }
-.features-style-2 .item .content-box{
-    padding-left: 60px;
-}
+
 .features-style-2 .item .content-box h5{
     font-size: 22px;
     line-height: 1.3;
@@ -1753,47 +1751,7 @@ p {
 	overflow: hidden;
 	position: relative;
 }
-.services.home-2 .services-carousel-item .services-item-img-box:before{
-    font-family: 'ar-coder';
-    position: absolute;
-    z-index: 1;
-    font-size: 45px;
-    line-height: 1;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: all 0.8s ease;
-    -o-transition: all 0.8s ease;
-    transition: all 0.8s ease;
-}
-.services.home-2 .services-carousel-item.item-1 .services-item-img-box:before{
-    content: "\e934";
-}
-.services.home-2 .services-carousel-item.item-2 .services-item-img-box:before{
-    content: "\e93d"
-}
-.services.home-2 .services-carousel-item.item-3 .services-item-img-box:before{
-    content: "\e916"
-}
-.services.home-2 .services-carousel-item.item-4 .services-item-img-box:before{
-    content: "\e917"
-}
-.services.home-2 .services-carousel-item.item-5 .services-item-img-box:before{
-    content: "\e910"
-}
-.services.home-2 .services-carousel-item.item-6 .services-item-img-box:before{
-    content: "\e90d"
-}
-.services.home-2 .services-carousel-item:hover .services-item-img-box:before{
-    opacity: 1;
-    visibility: visible;
-    color: #FFF;
-    z-index: 4;
-}
+
 .services.home-2 .services-carousel-item .services-item-img-box span,
 .projects-item span,
 .services.home-3 .item-box span{

@@ -57,10 +57,10 @@ const navLinks = [
       <div class="container">
         <div class="content-box d-flex align-items-center justify-content-between">
           <div class="logo">
-            <a href="index.html" class="logo-nav">
+            <router-link to="/" class="logo-nav">
               <img class="img-fluid one" src="https://gulfelite.b-cdn.net/logos/01_logo.png" alt="01 Logo">
               <img class="img-fluid two" src="https://gulfelite.b-cdn.net/logos/02_logo.png" alt="02 Logo">
-            </a>
+            </router-link>
             <a href="#open-nav-bar-menu" @click.prevent="toggleNav" class="open-nav-bar">
               <span></span>
               <span></span>

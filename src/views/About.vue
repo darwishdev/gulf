@@ -14,7 +14,7 @@ useAnimation()
 <template>
    
         <!-- :: Breadcrumb Header -->
-        <section class="breadcrumb-header" id="page" style="background-image: url(https://gulfelite.b-cdn.net/slider/image\(1\).png)">
+        <section class="breadcrumb-header" id="page" style="background-image: url(https://gulfelite.b-cdn.net/slider/lo9.jpeg)">
             <div class="overlay"></div>
             <div class="container">
                 <div class="row">
@@ -79,7 +79,7 @@ useAnimation()
                     <div class="col-md-6 col-lg-3 animate__animated invisible" animation="zoomIn"
                         v-for="(feature, index) in data.features" :key="index">
                         <div class="provide-core-list-item">
-                            <i class="ar-icons-idea"></i>
+                            <!-- <i class="ar-icons-idea"></i> -->
                             <h4>{{ feature.title }}</h4>
                             <p v-html="feature.content"></p>
                         </div>

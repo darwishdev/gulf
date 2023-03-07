@@ -338,10 +338,18 @@
 
 /* :: Small devices */
 @media (max-width: 575px){
+    .about-us.py-100{
+        padding: 50px 0 !important;
+    }
+    .invisible{
+        visibility: visible !important;
+    }
     /* :: Header */
     .header, .header .header-carousel .sec-hero{
-        min-height: 1000px !important;
+        /* min-height: 1000px !important; */
+        position: relative;
     }
+    
     .header .banner .handline{
         font-size: 22px;
     }

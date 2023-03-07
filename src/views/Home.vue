@@ -56,11 +56,11 @@ onMounted(() => {
         margin: 30,
         smartSpeed: 1000,
         // autoplay: 2000,
-        nav: true,
+        nav: false,
         autoplayHoverPause: true,
         mouseDrag: true,
         touchDrag: true,
-        navText: ['<i class="ar-icons-left-chevron"></i>', '<i class="ar-icons-right-chevron"></i>'],
+        // navText: ['<i class="ar-icons-left-chevron"></i>', '<i class="ar-icons-right-chevron"></i>'],
         responsive: {
             0: {
                 items: 1
@@ -83,7 +83,7 @@ onMounted(() => {
 
     $('.header .owl-carousel').owlCarousel({
         loop: true,
-        nav: true,
+        nav: false,
         margin: 30,
         items: 3,
         autoplay: true,
@@ -92,7 +92,7 @@ onMounted(() => {
         autoplayHoverPause: true,
         mouseDrag: true,
         touchDrag: true,
-        navText: ['<i class="ar-icons-left-chevron"></i>', '<i class="ar-icons-right-chevron"></i>'],
+        // navText: ['<i class="ar-icons-left-chevron"></i>', '<i class="ar-icons-right-chevron"></i>'],
         dotsClass: ['container', 'owl-dots'],
         onInitialized: function () {
             setTimeout(function () {
@@ -205,7 +205,7 @@ onMounted(() => {
                     <div class="col-md-6 col-lg-3 animate__animated invisible" animation="zoomIn"
                         v-for="(feature, index) in data.features" :key="index">
                         <div class="provide-core-list-item">
-                            <i class="ar-icons-idea"></i>
+                            <!-- <i :class="feature.icon"></i> -->
                             <h4>{{ feature.title }}</h4>
                             <p>{{ feature.content }} </p>
                         </div>

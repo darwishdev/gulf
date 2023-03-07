@@ -13,7 +13,7 @@ const props = defineProps({
 
             </div>
             <div class="text-box text-left">
-                <h5><a href="01_team.html">{{props.member.name}}</a></h5>
+                <h5><h3 >{{props.member.name}}</h3></h5>
                 <span>{{props.member.title}}</span>
                 <p class=" mt-4">{{ props.member.breif }}</p>
             </div>

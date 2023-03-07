@@ -18,6 +18,7 @@ export function useAnimation() {
 
 
   onMounted(() => {
+    if(screen.width <= ' 575') return
     for (const animationElem of $('body .animate__animated')) {
       observer.observe(animationElem)
     }

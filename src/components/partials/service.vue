@@ -7,8 +7,8 @@ const props = defineProps({
 
 <template>
     <div class="services-carousel-item item-1 " >
-        <a href="02_services.html" class="services-item-img-box"
-        :style="{ 'background-image': `url(${service.img})` }"><span></span></a>
+        <span class="services-item-img-box"
+        :style="{ 'background-image': `url(${service.img})` }"><span></span></span>
         <div class="item-box">
             <!-- <i class="ar-icons-tank"></i> -->
             <div class="content-box">
